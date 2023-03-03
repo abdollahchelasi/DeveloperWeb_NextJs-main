@@ -252,10 +252,7 @@ export default function Home() {
                     <img width="50%" src="/a5.webp" />
                   </a>
                 </Col>
-                <Col md={3} sm={3} className={styles.img4}>
-                  
-          
-                </Col>
+                
 
                 
               </Row>
