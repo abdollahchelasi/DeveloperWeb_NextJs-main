@@ -3,6 +3,8 @@ import { Navbar, Container, Nav, NavDropdown, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/Home.module.css";
 import Typewriter from "typewriter-effect";
+import Accordion from 'react-bootstrap/Accordion';
+
 
 export default function Home() {
   return (
@@ -98,28 +100,54 @@ export default function Home() {
           <Container className={styles.webi}>
              <Row>
             
-            <Col md={12} className={styles.tarh} id="web">
-              <p>
-                نمونه های <span style={{ color: "#31f91b " }}>وبسایت</span>
-              </p>
-            </Col>
+           <Col>
+           
 
-            <Col md={12} className={styles.img1}>
+
+
+            <Accordion defaultActiveKey={['0']} alwaysOpen className={styles.accor}>
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>دلفین گربدان</Accordion.Header>
+        <Accordion.Body>
+        <Col md={12} className={styles.img1}>
               <Row>
-                <Col md={5} sm={6} className={styles.img2}>
-                  <a
+                <Col  >
+                  
+                   
+                   <img className={styles.img2} src="/dolfin.png"  width={300}/>
+                   <hr/>
+                   <p>
+                   باشگاه فوتبال دلفین گربدان یکی از پر افتخارترین و پر هوادارترین باشگاه های فوتبال در جزیره قشم است دلفین گربدان پیش از انقلاب ستاره جنوب گربدان نام داشت باشگاه هم اکنون در لیگ دسته دو قشم قرار گرفته , دلفین گربدان در سال 1324 در جزیره قشم روستای گربدان بنیان گذاری شده است
+                   </p>
+                   <a
                     className={styles.a1}
                     target="#"
                     href="http://gorbedan.vercel.app/"
                   >
-                   
-                   <img src="/dolfin.png" width="100%" height="250" />
-                   <p className={styles.amooz}>دلفین گربدان</p>
+                   <p className={styles.amooz}>وبسایت دلفین گربدان</p>
 
                   </a>
                 </Col>
 
-                <Col md={5} sm={6} className={styles.img2}>
+              </Row>
+            </Col>
+        </Accordion.Body>
+        
+        <Accordion.Body>
+
+        </Accordion.Body>
+
+        
+      </Accordion.Item>
+      
+    </Accordion>
+    </Col>
+
+
+
+
+
+    <Col md={5} sm={6} className={styles.img2}>
                   <a
                     className={styles.a1}
                     target="#"
@@ -207,8 +235,15 @@ export default function Home() {
                   </a>
                   
                 </Col>
-              </Row>
-            </Col>
+
+
+
+
+
+
+
+
+            
           </Row>
           </Container>
 
@@ -273,36 +308,26 @@ export default function Home() {
         </Container>
 
         <Container fluid id="dev">
-          <Col  className={styles.foot1}>
-            <h2 className={styles.h2}>درباره من</h2>
-            <Row>
-              <Col className={styles.imgcall}>
-                <img src="/a.jpg" className={styles.abdolimg} width={80} />
-              </Col>
+        
 
-              <Col className={styles.colabdol}>
-                <p className={styles.tarah}>
+<Accordion defaultActiveKey={['0']} alwaysOpen className={styles.accor}>
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>درباره من</Accordion.Header>
+        <Accordion.Body>
+          <img width={50} src="/a.jpg" className={styles.abdolimg}/>
+        </Accordion.Body>
+        <p className={styles.tarah}>
                   طراح و برنامه نویس :
                   <p className={styles.abdollah}>عبدالله چلاسی</p>
                 </p>
-              </Col>
-            </Row>
+        <Accordion.Body>
+        من متولد 1373 قشم - روستای گربدان هستم که در زمینه طراحی وب , دسکتاپ و برنامه نویسی موبایل فعالیت دارم و به صورت آزاد یا همون فریلنسینگ کار میکنم, یکی از اتفاقات جالب زندگیم اینه که تفریحم و شغلم یکی هستند و اونم چیزی نیست جز توسعه وب و اپلیکیشن , این داستان از سال 1391 شروع شد که به سمت تکنولوژی و دنیای برنامه نویسی پا گذاشتم همچنان این سابقه با گذر زمان همچنان بیشتر و بیشتر میشه، چون برنامه نویسی چیزی هست که من باهاش دنیا رو می بینم، می سنجم و حس میکنم،و سعی ام بر این است که با همین روند پیش برم و روز به روز با تکنولوژی های جدید دنیای برنامه نویسی کار کنم و تجربیات جدیدی کسب کنم 
+        </Accordion.Body>
 
-            <Col className={styles.pp}>
-              <p>
-                من متولد 1373 قشم - روستای گربدان هستم که در زمینه طراحی وب ,
-                دسکتاپ و برنامه نویسی موبایل فعالیت دارم و به صورت آزاد یا همون
-                فریلنسینگ کار میکنم, یکی از اتفاقات جالب زندگیم اینه که تفریحم و
-                شغلم یکی هستند و اونم چیزی نیست جز توسعه وب و اپلیکیشن , این
-                داستان از سال 1391 شروع شد که به سمت تکنولوژی و دنیای برنامه
-                نویسی پا گذاشتم همچنان این سابقه با گذر زمان همچنان بیشتر و
-                بیشتر میشه، چون برنامه نویسی چیزی هست که من باهاش دنیا رو می
-                بینم، می سنجم و حس میکنم،و سعی ام بر این است که با همین روند پیش
-                برم و روز به روز با تکنولوژی های جدید دنیای برنامه نویسی کار کنم
-                و تجربیات جدیدی کسب کنم{" "}
-              </p>
-            </Col>
-          </Col>
+        
+      </Accordion.Item>
+      
+    </Accordion>
         </Container>
       </main>
 

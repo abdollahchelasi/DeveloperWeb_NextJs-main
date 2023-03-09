@@ -22,6 +22,11 @@ width: 50px;
   box-shadow: #0550a5 1px 1px 3px;
 
 }
+
+.accor{
+  color: #010c14;
+  margin: 60px;
+}
 .lin{
   padding: 0;
   padding-top: 260px;
@@ -56,6 +61,9 @@ width: 50px;
 .a1{
   text-decoration-line: none;
 
+}
+.a1 :hover{
+  background-color: #e72b2b;
 }
 .web{
   width: 260px;
@@ -166,7 +174,6 @@ width: 50px;
 
 .img2{
   border-radius: 6px;
-  margin-top: 25px;
   border-radius: 11px;
 }
 
@@ -186,7 +193,6 @@ width: 50px;
  @-webkit-keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
 
 .img2:hover{
-  -webkit-animation:heartbeat 1.5s ease-in-out infinite both;animation:heartbeat 1.5s ease-in-out infinite both;
 
   border-style: groove;
 }
@@ -304,12 +310,9 @@ margin-top: 10px;
 .abdollah{
   border-radius: 4px;
   margin: 3px;
-  color: rgb(91, 174, 199);
+  color: rgb(238, 14, 14);
 }
-.abdollah:hover{
-  background-color: rgb(80, 79, 175);
-  color: black;
-}
+
 .aa{
   text-decoration: none;
 }
