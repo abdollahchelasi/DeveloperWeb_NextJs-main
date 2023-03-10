@@ -112,7 +112,9 @@ width: 50px;
   background-image: url("https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg");
   padding-bottom: 60px;
 }
-
+.pat{
+  box-shadow: black 2px 2px 69px;
+}
 .iconpvc{
   border-radius: 50%;
 }
@@ -182,6 +184,9 @@ width: 50px;
 
 .foot{
   background-size: cover;
+  box-shadow: black 2px 2px 9px;
+  border-style: dashed;
+  border-color: #848a84;
   background-image: url("https://img.freepik.com/free-vector/blue-futuristic-waves-background-with-computer-code-technology_53876-119584.jpg");
 }
 
