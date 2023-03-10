@@ -262,7 +262,8 @@ width: 50px;
   text-align: center;
   margin-top: 84px;
  color: white;
- 
+ margin-bottom: 41px;
+
 }
 .imgcall{
   height: 60px;
@@ -311,9 +312,9 @@ margin-top: 10px;
 }
 .dev{
   text-align: center;
-  margin-top: 33px;
+  margin-bottom: 11px;
   padding: 4px;
-  color: wheat;
+  color: rgb(146, 109, 41);
 }
 .tarah{
   padding: 9px;
@@ -322,6 +323,7 @@ margin-top: 10px;
   border-radius: 4px;
   margin: 3px;
   color: rgb(238, 14, 14);
+
 }
 .abdollah:hover{
   box-shadow: rgb(47, 243, 96) 2px 2px 9px;
