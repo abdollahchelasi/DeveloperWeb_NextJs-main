@@ -243,7 +243,7 @@ export default function Home() {
 
 <Accordion defaultActiveKey={['0']} alwaysOpen className={styles.accor}>
   <Accordion.Item eventKey="0">
-    <Accordion.Header> دکوراسیون شادمان - رمکان</Accordion.Header>
+    <Accordion.Header>  خدمات PVC - رمکان</Accordion.Header>
     <Accordion.Body>
       <Col className={styles.img1}>
         <Row>
@@ -285,7 +285,7 @@ export default function Home() {
 
             <hr />
             <p>
-
+                  وبسایت با قابلیت ورود ادمین
              </p>
             <a
               className={styles.a1}
