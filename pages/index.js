@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/Home.module.css";
 import Typewriter from "typewriter-effect";
 import Accordion from 'react-bootstrap/Accordion';
-
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -188,6 +188,128 @@ export default function Home() {
 
                 </Accordion>
               </Col>
+
+
+
+              <Col md={6}>
+
+
+
+
+<Accordion defaultActiveKey={['0']} alwaysOpen className={styles.accor}>
+  <Accordion.Item eventKey="0">
+    <Accordion.Header> دکوراسیون شادمان - رمکان</Accordion.Header>
+    <Accordion.Body>
+      <Col className={styles.img1}>
+        <Row>
+          <Col  >
+
+
+            <img className={styles.img2} src="/upvc.png" width={"100%"} />
+            <hr />
+            <p>
+            تولیدی درب و پنجره UPVC نوین ترک فروش و نصب PVC طراحی یا ساخت و اجرای انواع سایبان PVC
+             </p>
+            <a
+              className={styles.a1}
+              target="#"
+              href="https://pvcshademan.vercel.app"
+            >
+              <p className={styles.amooz}>وبسایت دکوراسیون شادمان - رمکان</p>
+
+            </a>
+          </Col>
+
+        </Row>
+      </Col>
+    </Accordion.Body>
+
+    <Accordion.Body>
+
+    </Accordion.Body>
+
+
+  </Accordion.Item>
+
+</Accordion>
+</Col>
+
+
+
+<Col md={6}>
+
+
+
+
+<Accordion defaultActiveKey={['0']} alwaysOpen className={styles.accor}>
+  <Accordion.Item eventKey="0">
+    <Accordion.Header> دکوراسیون شادمان - رمکان</Accordion.Header>
+    <Accordion.Body>
+      <Col className={styles.img1}>
+        <Row>
+          <Col  >
+                <Row>
+
+                  <Col sm={12}>
+                  <Link href="/admin1.png" target="#">
+                        <img className={styles.img2} src="/admin1.png" width={"100%"} />
+
+                </Link>
+                  </Col>
+                  
+                  <Col>
+                  <Link href="/admin2.png" target="#">
+                        <img className={styles.img2} src="/admin2.png" width={"100%"} />
+
+                </Link>
+                  </Col>
+
+                  <Col>
+                  <Link href="/admin3.png" target="#">
+                        <img className={styles.img2} src="/admin3.png" width={"100%"} />
+
+                </Link>
+                  </Col>
+
+                  <Col>
+                  <Link href="/admin4.png" target="#">
+                        <img className={styles.img2} src="/admin4.png" width={"100%"} />
+
+                </Link>
+                  </Col>
+
+                </Row>
+                
+
+
+
+            <hr />
+            <p>
+
+             </p>
+            <a
+              className={styles.a1}
+              target="#"
+              href="https://pvcahmad.ir"
+            >
+              <p className={styles.amooz}>وبسایت خدمات PVC - رمکان</p>
+
+            </a>
+          </Col>
+
+        </Row>
+      </Col>
+    </Accordion.Body>
+
+    <Accordion.Body>
+
+    </Accordion.Body>
+
+
+  </Accordion.Item>
+
+</Accordion>
+</Col>
 
 
 
