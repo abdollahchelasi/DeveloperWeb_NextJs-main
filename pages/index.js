@@ -84,7 +84,7 @@ export default function Home() {
 
           <svg className={styles.pat} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
-              
+
               color="#CD5C5C"
               opacity={"0"}
               d="M0,32L80,74.7C160,117,320,203,480,218.7C640,235,800,181,960,186.7C1120,192,1280,256,1360,288L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
@@ -198,24 +198,24 @@ export default function Home() {
 
 <Accordion defaultActiveKey={['0']} alwaysOpen className={styles.accor}>
   <Accordion.Item eventKey="0">
-    <Accordion.Header> دکوراسیون شادمان - رمکان</Accordion.Header>
+    <Accordion.Header> قشم اسپلیت  </Accordion.Header>
     <Accordion.Body>
       <Col className={styles.img1}>
         <Row>
           <Col  >
 
 
-            <img className={styles.img2} src="/upvc.png" width={"100%"} />
+            <img className={styles.img2} src="/qeshms.png" width={"100%"} />
             <hr />
             <p>
-            تولیدی درب و پنجره UPVC نوین ترک فروش و نصب PVC طراحی یا ساخت و اجرای انواع سایبان PVC
+
              </p>
             <a
               className={styles.a1}
               target="#"
-              href="https://pvcshademan.vercel.app"
+              href="https://qeshmsplit.vercel.app/"
             >
-              <p className={styles.amooz}>وبسایت دکوراسیون شادمان - رمکان</p>
+              <p className={styles.amooz}>وبسایت قشم اسپلیت </p>
 
             </a>
           </Col>
@@ -236,80 +236,134 @@ export default function Home() {
 
 
 
-<Col md={6}>
 
 
 
 
-<Accordion defaultActiveKey={['0']} alwaysOpen className={styles.accor}>
-  <Accordion.Item eventKey="0">
-    <Accordion.Header>  خدمات PVC - رمکان</Accordion.Header>
-    <Accordion.Body>
-      <Col className={styles.img1}>
-        <Row>
-          <Col  >
-                <Row>
-
-                  <Col sm={12}>
-                  <Link href="/admin1.png" target="#">
-                        <img className={styles.img2} src="/admin1.png" width={"100%"} />
-
-                </Link>
-                  </Col>
-                  
-                  <Col>
-                  <Link href="/admin2.png" target="#">
-                        <img className={styles.img2} src="/admin2.png" width={"100%"} />
-
-                </Link>
-                  </Col>
-
-                  <Col>
-                  <Link href="/admin3.png" target="#">
-                        <img className={styles.img2} src="/admin3.png" width={"100%"} />
-
-                </Link>
-                  </Col>
-
-                  <Col>
-                  <Link href="/admin4.png" target="#">
-                        <img className={styles.img2} src="/admin4.png" width={"100%"} />
-
-                </Link>
-                  </Col>
-
-                </Row>
-                
 
 
 
-            <hr />
-            <p>
-                  وبسایت با قابلیت ورود ادمین
-             </p>
-            <a
-              className={styles.a1}
-              target="#"
-              href="https://pvcahmad.ir"
-            >
-              <p className={styles.amooz}>وبسایت خدمات PVC - رمکان</p>
-
-            </a>
-          </Col>
-
-        </Row>
-      </Col>
-    </Accordion.Body>
-
-    <Accordion.Body>
-
-    </Accordion.Body>
 
 
-  </Accordion.Item>
+              <Col md={6}>
 
-</Accordion>
-</Col>
+
+
+
+                <Accordion defaultActiveKey={['0']} alwaysOpen className={styles.accor}>
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header> دکوراسیون شادمان - رمکان</Accordion.Header>
+                    <Accordion.Body>
+                      <Col className={styles.img1}>
+                        <Row>
+                          <Col  >
+
+
+                            <img className={styles.img2} src="/upvc.png" width={"100%"} />
+                            <hr />
+                            <p>
+                              تولیدی درب و پنجره UPVC نوین ترک فروش و نصب PVC طراحی یا ساخت و اجرای انواع سایبان PVC
+                            </p>
+                            <a
+                              className={styles.a1}
+                              target="#"
+                              href="https://pvcshademan.vercel.app"
+                            >
+                              <p className={styles.amooz}>وبسایت دکوراسیون شادمان - رمکان</p>
+
+                            </a>
+                          </Col>
+
+                        </Row>
+                      </Col>
+                    </Accordion.Body>
+
+                    <Accordion.Body>
+
+                    </Accordion.Body>
+
+
+                  </Accordion.Item>
+
+                </Accordion>
+              </Col>
+
+
+
+              <Col md={6}>
+
+
+
+
+                <Accordion defaultActiveKey={['0']} alwaysOpen className={styles.accor}>
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>  خدمات PVC - رمکان</Accordion.Header>
+                    <Accordion.Body>
+                      <Col className={styles.img1}>
+                        <Row>
+                          <Col  >
+                            <Row>
+
+                              <Col sm={12}>
+                                <Link href="/admin1.png" target="#">
+                                  <img className={styles.img2} src="/admin1.png" width={"100%"} />
+
+                                </Link>
+                              </Col>
+
+                              <Col>
+                                <Link href="/admin2.png" target="#">
+                                  <img className={styles.img2} src="/admin2.png" width={"100%"} />
+
+                                </Link>
+                              </Col>
+
+                              <Col>
+                                <Link href="/admin3.png" target="#">
+                                  <img className={styles.img2} src="/admin3.png" width={"100%"} />
+
+                                </Link>
+                              </Col>
+
+                              <Col>
+                                <Link href="/admin4.png" target="#">
+                                  <img className={styles.img2} src="/admin4.png" width={"100%"} />
+
+                                </Link>
+                              </Col>
+
+                            </Row>
+
+
+
+
+                            <hr />
+                            <p>
+                              وبسایت با قابلیت ورود ادمین
+                            </p>
+                            <a
+                              className={styles.a1}
+                              target="#"
+                              href="https://pvcahmad.ir"
+                            >
+                              <p className={styles.amooz}>وبسایت خدمات PVC - رمکان</p>
+
+                            </a>
+                          </Col>
+
+                        </Row>
+                      </Col>
+                    </Accordion.Body>
+
+                    <Accordion.Body>
+
+                    </Accordion.Body>
+
+
+                  </Accordion.Item>
+
+                </Accordion>
+              </Col>
 
 
 
@@ -723,9 +777,9 @@ export default function Home() {
 
         <div >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path opacity={"0"}  d="M0,32L80,74.7C160,117,320,203,480,218.7C640,235,800,181,960,186.7C1120,192,1280,256,1360,288L1440,320L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
-              </path>
-              </svg>
+            <path opacity={"0"} d="M0,32L80,74.7C160,117,320,203,480,218.7C640,235,800,181,960,186.7C1120,192,1280,256,1360,288L1440,320L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+            </path>
+          </svg>
           <Container fluid>
             <Row>
               <Col sm={9} className={styles.foot1}>
