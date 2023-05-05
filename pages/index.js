@@ -208,6 +208,7 @@ export default function Home() {
             <img className={styles.img2} src="/qeshms.png" width={"100%"} />
             <hr />
             <p>
+نصب و سرویس کولر در سر تا سر جزیره قشم
 
              </p>
             <a
