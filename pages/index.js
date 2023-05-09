@@ -242,7 +242,48 @@ export default function Home() {
 
 
 
+<Col md={6}>
 
+
+
+
+<Accordion defaultActiveKey={['0']} alwaysOpen className={styles.accor}>
+  <Accordion.Item eventKey="0">
+    <Accordion.Header>نقاش علی اکبر - بندرعباس</Accordion.Header>
+    <Accordion.Body>
+      <Col className={styles.img1}>
+        <Row>
+          <Col  >
+
+
+            <img className={styles.img2} src="/naqash.png" width={"100%"} />
+            <hr />
+            <p>
+            نقاشی ساختمان انواع رنگ پلاستیک اکرولیک و روغنی رنگ آمیزی کناف، درب و پنجره ،با بهترین کیفیت در خدمت مشتریهای عزیز
+                        </p>
+            <a
+              className={styles.a1}
+              target="#"
+              href="https://naqashaliakbar.vercel.app"
+            >
+              <p className={styles.amooz}>وبسایت نقاش علی اکبر - بندرعباس</p>
+
+            </a>
+          </Col>
+
+        </Row>
+      </Col>
+    </Accordion.Body>
+
+    <Accordion.Body>
+
+    </Accordion.Body>
+
+
+  </Accordion.Item>
+
+</Accordion>
+</Col>
 
 
 
